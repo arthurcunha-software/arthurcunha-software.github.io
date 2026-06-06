@@ -2,7 +2,7 @@
 {
     "id": 0,
     "nome": "Meu Cardápio",
-    "descricao": "Solução pensada para donos de estabelecimentos que desejam implementar a tecnologia de QR Code e exibir seu cardápio através do digital, foi utilizado Spring Boot com Thymeleaf para renderizar as páginas HTML e Docker para realizar o deploy",
+    "descricao": "Plataforma SaaS para digitalização de restaurantes via QR Codes dinâmicos. Resolve a lentidão de atualização de menus físicos, permitindo gerenciar produtos em tempo real com 4 presets de temas visuais. Desenvolvido com Spring Boot, Thymeleaf e Docker, aplicando os padrões MVC para separação de camadas.",
     "tecnologias": "Java & Spring",
     "imagemURL": "assets/meucardapio.png",
     "repositorio" : "Link do repositorio"
