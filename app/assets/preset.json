@@ -1,0 +1,8 @@
+{
+    "id": 0,
+    "nome": "Meu Cardápio",
+    "descricao": "Breve resumo do projeto aqui. Explique o problema que ele resolve, as tecnologias utilizadas (ex: Spring Boot, PostgreSQL, Docker) e quais padrões de projeto aplicou.",
+    "tecnologias": "Java & Spring",
+    "imagemURL": "assets/meucardapio.png",
+    "repositorio" : "Link do repositorio"
+}

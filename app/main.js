@@ -3,7 +3,7 @@ async function carregarProjetos() {
     const containerProjetos = document.querySelector(".lista-projetos");
     
     try {
-        // 1. Busca o arquivo JSON local
+        // Busca o arquivo JSON local
         const resposta = await fetch("assets/projetos.json");
         const projetos = await resposta.json();
         
@@ -16,7 +16,7 @@ async function carregarProjetos() {
                 <li class="project-card mb-4 shadow-sm bg-white rounded overflow-hidden">
                     <div class="row g-0">
                         <div class="col-md-5">
-                            <img src="${projeto.imagemURL}" alt="Preview: ${projeto.nome}" class="img-fluid project-img">
+                            <img src="${projeto.imagemURL}" alt="Preview: ${projeto.nome}" class="img-fluid project-img h-100">
                         </div>
                         <div class="col-md-7 p-4 d-flex flex-column justify-content-between">
                             <div>
@@ -43,5 +43,5 @@ async function carregarProjetos() {
     }
 }
 
-// Dispara a função quando a página abre
+
 carregarProjetos();

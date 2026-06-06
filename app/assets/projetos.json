@@ -1,0 +1,10 @@
+[
+{
+    "id": 0,
+    "nome": "Meu Cardápio",
+    "descricao": "Solução pensada para donos de estabelecimentos que desejam implementar a tecnologia de QR Code e exibir seu cardápio através do digital, foi utilizado Spring Boot com Thymeleaf para renderizar as páginas HTML e Docker para realizar o deploy",
+    "tecnologias": "Java & Spring",
+    "imagemURL": "assets/meucardapio.png",
+    "repositorio" : "Link do repositorio"
+}
+]
