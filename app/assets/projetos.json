@@ -3,8 +3,8 @@
     "id": 0,
     "nome": "Meu Cardápio",
     "descricao": "Plataforma SaaS para digitalização de restaurantes via QR Codes dinâmicos. Resolve a lentidão de atualização de menus físicos, permitindo gerenciar produtos em tempo real com 4 presets de temas visuais. Desenvolvido com Spring Boot, Thymeleaf e Docker, aplicando os padrões MVC para separação de camadas.",
-    "tecnologias": "Java & Spring",
+    "tecnologias": "Spring & Bootstrap",
     "imagemURL": "assets/meucardapio.png",
-    "repositorio" : "Link do repositorio"
+    "repositorio" : "https://github.com/arthurcunha-software/MeuCardapio"
 }
 ]
