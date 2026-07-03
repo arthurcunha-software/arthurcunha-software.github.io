@@ -14,14 +14,14 @@ async function carregarProjetos() {
         projetos.forEach(projeto => {
             const cardHTML = `
                 <li class="project-card mb-4 shadow-sm bg-white rounded overflow-hidden">
-                    <div class="row g-0">
-                        <div class="col-md-5">
-                            <img src="${projeto.imagemURL}" alt="Preview: ${projeto.nome}" class="img-fluid project-img h-100">
+                    <div class="row g-0 h-100 align-items-stretch"> <!-- Adicionado h-100 e stretch -->
+                        <div class="col-md-5 d-flex"> <!-- d-flex ajuda a alinhar a imagem perfeitamente -->
+                            <img src="${projeto.imagemURL}" alt="Preview: ${projeto.nome}" class="img-fluid project-img">
                         </div>
-                        <div class="col-md-7 p-4 d-flex flex-column justify-content-between">
-                            <div>
+                        <div class="col-md-7 p-4 d-flex flex-column justify-content-between overflow-hidden"> <!-- overflow-hidden impede o texto de estourar -->
+                            <div class="project-card-body">
                                 <h3 class="h5 fw-bold text-dark mb-2">${projeto.nome}</h3>
-                                <p class="text-muted small">${projeto.descricao}</p>
+                                <p class="text-muted small text-truncate-custom">${projeto.descricao}</p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center mt-3">
                                 <span class="badge bg-dark-subtle text-dark-emphasis">${projeto.tecnologias}</span>

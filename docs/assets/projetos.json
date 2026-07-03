@@ -2,9 +2,18 @@
 {
     "id": 0,
     "nome": "Meu Cardápio",
-    "descricao": "Plataforma SaaS para digitalização de restaurantes via QR Codes dinâmicos. Resolve a lentidão de atualização de menus físicos, permitindo gerenciar produtos em tempo real com 4 presets de temas visuais. Desenvolvido com Spring Boot, Thymeleaf e Docker, aplicando os padrões MVC para separação de camadas.",
+    "descricao": "Plataforma SaaS para digitalização de restaurantes via QR Codes dinâmicos. Resolve a lentidão de atualização de menus físicos, permitindo gerenciar produtos em tempo real Desenvolvido com Spring Boot, Thymeleaf e Docker, aplicando os padrões MVC para separação de camadas.",
     "tecnologias": "Spring & Bootstrap",
     "imagemURL": "assets/meucardapio.png",
     "repositorio" : "https://github.com/arthurcunha-software/MeuCardapio"
+},
+{
+    "id": 1,
+    "nome": "SisClinica",
+    "descricao": "**[Em Desenvolvimento]** Sistema de gestão clínica e fluxo de pacientes em tempo real. Resolve o desalinhamento entre recepção e médicos ao automatizar a transição de estados das consultas. Desenvolvido com Spring Boot, Spring Security para controle rígido de acesso (RBAC) e persistência imutável de prontuários.",
+    "tecnologias": "Spring",
+    "imagemURL": "assets/sisclinica.png",
+    "repositorio" : "https://github.com/arthurcunha-software/projeto-consultorio"
 }
 ]
+
